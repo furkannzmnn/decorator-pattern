@@ -6,7 +6,7 @@ public class OrderService {
 
         Toppings toppings = new Toppings(pz);
 
-        System.out.println("Ordering a " + pz.getDescription() + " with " + extraToppings);
+        System.out.println("Ordering a " + toppings.getDescription() + " with " + extraToppings);
 
     }
 }
